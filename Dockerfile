@@ -1,7 +1,6 @@
 # Select a base image
 FROM python:3-slim
 # Set the working directory for the app and copy files into the container
-container
 WORKDIR /usr/src/app
 COPY
 # Install any dependencies
